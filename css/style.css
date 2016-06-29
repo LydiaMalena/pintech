@@ -1,0 +1,560 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;	
+}
+
+body{
+	width:100%;
+}
+
+#container{
+	width:100%;
+	background:#fbf6f3;
+	font-family: Helvetica, "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+/*START OF HEADER*/
+
+#header{
+	height:135px;
+}
+
+#headerlogo{
+	float:left;
+	margin: 5px 0 0 32px;
+}
+
+#headerlogo img{
+	width:200px;
+}
+
+#welcomemessage{
+	font-family:Helvetica;
+	font-size: 13.5px;
+	color: #908478;
+	text-align:right;
+	margin: 0px 28px 0 0;
+	padding-top:20px;
+}
+
+#welcomemessage a{
+	color: #c5a09e;
+}
+
+#searchbox{
+	align:right;
+	margin: 15px 28px 10px 1155px;
+	font-family:Helvetica;
+	background:#ebe1df;
+	border:solid thick #ebe1df;
+	border-radius:5px;
+	height:28px;
+	width:234px;
+	
+}
+
+.pinkline{
+	border-top:1px solid #c5a09e;
+}
+
+#headerlinks{
+	font-family:Gill Sans;
+	font-weight:lighter;
+	font-size: 16px;
+	color: #908478;
+	margin:12px 0 12px 0;
+}
+
+#headerlinks ul{
+	
+}
+
+#headerlinks ul li{
+	display:inline;
+	float:left;
+	margin: 0px 45px 0 30px;
+}
+
+#headerlinks ul li a{
+	text-decoration:none;
+	color:#908478;
+}
+
+#headerlinks ul li a:hover{
+	color:#c5a09e;
+}
+
+/*END OF HEADER*/
+
+
+
+/*START OF FOOTER*/
+
+#footer{
+	clear:both;
+	
+}
+
+#footerlinks{
+	font-family:Gill Sans;
+	font-weight:lighter;
+	font-size: 16px;
+	color: #908478;
+	margin:12px 0 12px 0;
+}
+
+#footerlinks ul{
+	
+}
+
+#footerlinks ul li{
+	display:inline;
+	float:left;
+	margin: 0px 45px 0 30px;
+}
+
+#footerlinks ul li a{
+	text-decoration:none;
+	color:#908478;
+}
+
+#footerlinks ul li a:hover{
+	color:#c5a09e;
+}
+
+#copyright h5{
+	text-align:center;
+	clear:both;
+	padding: 34px 0 22px 0;
+}
+
+#copyright h5{
+	font-weight:lighter;
+	font-size: 12px;
+	color: #908478;
+}
+
+/*END OF FOOTER*/
+
+
+
+/*START OF HOMEPAGE*/
+
+#homestarimage{
+	height:383px;
+	margin-bottom:50px;
+	border-top:solid 2px #908478;
+	border-bottom:solid 2px #908478;
+}
+
+#starquote{
+	border-top:solid 2px #908478;
+	border-bottom:solid 2px #908478;
+	height:343px;
+	margin-bottom:50px;
+	background-image:url(../images/starimageitemlist.png);
+	text-align:right;
+	padding:40px 30px 0 0;
+	font-family:Helvetica;
+	font-weight:100;
+	font-size:33px;
+	color:#908478;
+	font-style:italic;
+}
+
+#homecolumncontain{
+	width:1202px;
+	margin: 0 auto;
+}
+
+.homecolumn1{
+	float:left;
+	width:498px;
+	margin-right:206px;
+	margin-bottom:36px;
+}
+
+.homecolumn2{
+	float:left;
+	width:498px;
+	margin-bottom:36px;
+}
+
+.hometitle{
+	font-family:Helvetica;
+	font-weight:100;
+	font-size:24;
+	color:#908478;
+}
+
+.columnline{
+	border-top:#c5a09e solid 1px;
+}
+
+.homecolumntext{
+	color:#908478;
+	font-size:16px;
+	margin-top:22px;
+	font-family:"Gill Sans";
+	font-weight:100;
+}
+
+
+#homefaq{
+	clear:both;
+	background-color: #ebe1df;
+	width:1025px;
+	height:250px;
+	padding:0 200px;
+	font-family:"Gill Sans";
+	color:#908478;
+	font-weight:lighter;
+	margin-bottom:20px
+}
+
+#homefaqtitle{
+	font-size:24px;
+	margin:0px 0px 26px 0px;
+	padding-top:17px;
+}
+
+#homefaqsub{
+	font-size:18px;
+	font-weight:400;
+}
+
+#homefaqline{
+	border-top: solid 1px #c5a09e;
+}
+
+#homefaqlist{
+	font-size:16px;
+}
+
+#homefaqlist ul{
+	margin:10px 0 0 0;
+}
+
+#homefaqlist ul li{
+	display:inline;
+	
+}
+
+#homefaqlist ul li a{
+	color:#908478;
+	text-decoration:none;
+}
+
+#homefaqlist ul li a:hover{
+	color:#c5a09e;
+}
+
+
+/*END OF HOMEPAGE*/
+
+
+
+/*START OF SIDECOLUMN*/
+#traveltext{
+	color:#908478;
+	font-size:16px;
+	font-family:"Gill Sans";
+	font-weight:100;
+	margin: 30px 0 0 22px;
+}
+
+#itemsidecolumn{
+	width:234px;
+	margin: 46px 32px 0 22px;
+	float:left;
+}
+
+.mainitemsidecolumn{
+	color:#908478;
+	font-size:22px;
+	font-family:"Gill Sans";
+	font-weight:400;
+}
+
+.linesidecolumn{
+	border-top:solid 1px #908478;
+}
+
+.smallitemsidecolumn{
+	margin-bottom:73px;
+}
+
+.smallitemsidecolumn ul{
+	list-style-type: none;
+	padding-left:0
+}
+
+.smallitemsidecolumn ul li{
+	text-decoration:none;
+}
+
+.smallitemsidecolumn ul li a{
+	color:#c5a09e;
+	font-size:16px;
+	font-family:"Gill Sans";
+	font-weight:100;
+	text-decoration:none;
+}
+
+.smallitemsidecolumn ul li a:hover{
+	color:#908478;
+}
+
+/*END OF SIDECOLUMN*/
+
+
+
+
+/*START OF ITEMLIST*/
+
+.itemselecttitle{
+	color:#908478;
+	font-size:30px;
+	font-family:"Helvetica";
+	font-weight:lighter;
+	margin-top:40px;
+}
+
+
+.itemselectline{
+	margin-bottom:35px;
+}
+
+.itemselectioncontainer{
+	margin:0 0 81px 296px;
+	padding:0 49 px;
+	width:1105px;
+}
+
+.itemselectioncontainer br{
+	clear:both;
+}
+
+.itemselectitem{
+	margin: 0 0 53px 28px;
+	float:left;
+}
+
+.smallitembox img{
+	box-sizing: border-box;
+	border: solid 1px #908478;
+	height:323px;
+	width:323px;
+}
+
+.itemselectname{
+	color:#908478;
+	font-size:21px;
+	font-family:"Helvetica";
+	font-weight:100;
+	margin-top:15px;
+}
+
+.itemselectprice{
+	color:#908478;
+	font-size:18px;
+	font-family:"Gill Sans";
+	font-weight:100;
+}
+
+
+
+/*END OF ITEMLIST*/
+
+
+
+/*START OF ITEMPAGE*/
+
+#itemcontainer{
+	width:410px;
+	float:left;
+}
+
+#mainitembox img{
+	width:409px;
+	height:409px;
+	box-sizing: border-box;
+	border: solid 1px #908478;
+}
+
+.itemboxtabs{
+}
+
+.itemboxtabs img{
+	float:left;
+	width:136.33px;
+	height:136.33px;
+	margin-top: -4px;
+	box-sizing: border-box;
+	border: solid 1px #908478;
+}
+
+#productcontainer{
+	width:642px;
+	height:546px;
+	background-color:#ebe1df;
+	float:left;
+	margin-left:25px;
+	padding: 0 16px;
+}
+
+#producttitle{
+	font-size:30px;
+	color:#908478;
+	font-family: Helvetica;
+	font-weight:lighter;
+	margin-top:24px;
+}
+
+
+#productsubtitle{
+	font-size:18px;
+	color:#908478;
+	font-family: Helvetica;
+	font-weight:lighter;
+}
+
+.productline{
+	border-top:1px solid #c5a09e;
+}
+
+#productpricecontain{
+	float:left;
+}
+
+#productprice{
+	font-size:40px;
+	color:#908478;
+	font-family: "Gill Sans";
+	margin-top:21px;
+}
+
+#productsaleprice{
+	font-size:14px;
+	color:#908478;
+	font-family: "Gill Sans";
+	font-weight:lighter;
+}
+
+#productbuttoncontain{
+	float:left;
+}
+
+.productbutton{
+	font-size:24px;
+	color:#fbf6f3;
+	font-family: "Gill Sans";
+	font-weight:lighter;
+	width:234px;
+	height:26px;
+	background-color:#c5a09e;
+	text-align:center;
+	border-radius:5px;
+	margin:21px 0 0 176px;
+	padding: 8px 0 10px 0;
+}
+
+#productdescription{
+	font-size:15px;
+	color:#908478;
+	font-family: Helvetica;
+	clear:both;
+	margin-top:228px;
+}
+
+#productdescription p{
+	margin-top:20px;
+}
+#productdescription h4{
+	font-size:24px;
+	color:#908478;
+	font-family: Helvetica;
+	font-weight:lighter;
+}
+
+#itemdescription{
+	width:1075px;
+	background-color:#ebe1df;
+	float:left;
+	font-size:15px;
+	color:#908478;
+	font-family: Helvetica;
+	padding:23px 17px;
+	margin-top:24px;
+}
+
+#itemdescription h4{
+	font-size:24px;
+	font-weight:lighter;
+}
+
+#itemdescription p{
+	margin-top:20px;
+}
+
+#itemdescription ul{
+	padding-left:17px;
+}
+
+#descriptionpinkline{
+	border-top:1px solid #c5a09e;
+	width:638px;
+}
+
+#itemsuggestions{
+	margin:46px 0 0 22px;
+}
+
+#itemsuggestions p{
+	font-size:18px;
+	color:#908478;
+	font-family: Helvetica;
+}
+
+#suggestionline{
+	border-top:1px solid #908478;
+	width:587px;
+}
+
+#suggestiongitemtotal{
+	margin-left:44px;
+}
+.suggestionitemscontain{
+	width:236px;
+	height:236px;
+	float:left;
+	margin: 0 29px 122px 0;
+}
+
+.suggestionitems img{
+	width:236px;
+	height:236px;
+	margin: 15px 0 0 0;
+	float:left;
+	box-sizing: border-box;
+	border: solid 1px #908478;
+}
+
+.itemsuggestionname{
+	font-size:18px;
+	color:#908478;
+	font-family: Helvetica;
+	clear:left;
+	margin-top:260px;
+}
+
+.itemsuggestionprice{
+	font-size:14px;
+	color:#908478;
+	font-family: Helvetica;
+	font-weight:lighter;
+	margin-bottom:235px;
+}
+/*END OF ITEMPAGE*/
